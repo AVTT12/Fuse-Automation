@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Fuse</title>
+<meta name="description" content="Book a 20-minute discovery call with Fuse. We'll have a sample voice agent for your business in your inbox within 48 hours." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Geist:wght@300..700&family=JetBrains+Mono:wght@300..600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body data-barba="wrapper">
+
+<div class="cursor"></div>
+<div class="transition"><div class="transition__label">Contact</div></div>
+
+<header class="nav">
+  <a href="index.html" class="nav__brand"><span class="nav__brand-mark"></span>Fuse</a>
+  <ul class="nav__list">
+    <li><a href="index.html" class="nav__link">Home</a></li>
+    <li><a href="about.html" class="nav__link">About</a></li>
+    <li><a href="services.html" class="nav__link">Services</a></li>
+    <li><a href="how-it-works.html" class="nav__link">Process</a></li>
+    <li><a href="pricing.html" class="nav__link">Pricing</a></li>
+  </ul>
+  <a href="contact.html" class="nav__cta">Book a call</a>
+</header>
+
+<div class="page-marker">
+  <span>06 / 06</span>
+  <span class="page-marker__bar"></span>
+  <span>Contact</span>
+</div>
+
+<main data-barba="container" data-barba-namespace="contact" data-page-name="Contact">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__chapter">
+      <span>§ 06 — Contact</span>
+      <span>Twenty minutes, that's all</span>
+    </div>
+    <h1 class="hero__title" data-split>
+      <span class="word"><span>Let's</span></span>
+      <em><span class="word"><span>build&nbsp;</span></span></em>
+      <span class="word"><span>your</span></span>
+      <br />
+      <span class="word"><span>voice.</span></span>
+    </h1>
+    <p class="hero__sub">Tell us a bit about your business and we'll send you a sample agent — built for your industry, callable from your own phone — within 48 hours. No pitch deck, no pressure.</p>
+  </section>
+
+  <!-- ============ FORM ============ -->
+  <section class="section">
+    <div class="section-head reveal">
+      <div class="section-head__num">§ 01</div>
+      <h2 class="section-head__title">Tell us a bit about your <em>business</em>.</h2>
+      <div class="section-head__meta">Takes 90 seconds</div>
+    </div>
+
+    <form class="form reveal">
+      <div class="form__field">
+        <label class="form__label" for="name">Your name</label>
+        <input class="form__input" id="name" type="text" placeholder="Sam" required />
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="business">Business name</label>
+        <input class="form__input" id="business" type="text" placeholder="Corydon Chiropractic" required />
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="email">Email</label>
+        <input class="form__input" id="email" type="email" placeholder="sam@business.ca" required />
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="phone">Phone (the one we'd build for)</label>
+        <input class="form__input" id="phone" type="tel" placeholder="+1 (204) 555-0123" />
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="industry">Industry</label>
+        <select class="form__select" id="industry" required>
+          <option value="" disabled selected>Choose one…</option>
+          <option>Health & wellness practice</option>
+          <option>Trades or home services</option>
+          <option>Beauty & personal care</option>
+          <option>Professional services</option>
+          <option>Restaurant or hospitality</option>
+          <option>Retail or e-commerce</option>
+          <option>Something else (tell us below)</option>
+        </select>
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="tier">Which tier feels right?</label>
+        <select class="form__select" id="tier">
+          <option value="" disabled selected>Not sure yet — that's fine</option>
+          <option>Storefront — $349/mo</option>
+          <option>Practice — $649/mo</option>
+          <option>Custom — quoted</option>
+          <option>Just exploring</option>
+        </select>
+      </div>
+      <div class="form__field form__field--full">
+        <label class="form__label" for="message">What's the one call you wish you didn't miss?</label>
+        <textarea class="form__textarea" id="message" placeholder="Last week we lost a $4,200 quote because nobody picked up at 6:47pm…" rows="5"></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary form__submit">
+        Send <span class="btn__arrow">↗</span>
+      </button>
+    </form>
+  </section>
+
+  <!-- ============ ALTERNATES ============ -->
+  <section class="section">
+    <div class="section-head reveal">
+      <div class="section-head__num">§ 02</div>
+      <h2 class="section-head__title">Or skip the form, <em>just call</em> us.</h2>
+      <div class="section-head__meta">Three ways</div>
+    </div>
+
+    <div class="cards reveal-stagger">
+      <article class="card">
+        <div class="card__num">i.</div>
+        <h3 class="card__title">By <em>phone</em>.</h3>
+        <p class="card__body">Call our line. Yes, it's answered by our own agent. Yes, you can ask to be transferred to a human. We thought you'd appreciate the dogfood.</p>
+        <span class="card__tag">+1 (204) 555-0100</span>
+      </article>
+      <article class="card">
+        <div class="card__num">ii.</div>
+        <h3 class="card__title">By <em>email</em>.</h3>
+        <p class="card__body">Drop us a line. We answer within a business day, written by an actual person — until we get tired enough to automate it too.</p>
+        <span class="card__tag">hello@fuse.ai</span>
+      </article>
+      <article class="card">
+        <div class="card__num">iii.</div>
+        <h3 class="card__title">In <em>person</em>.</h3>
+        <p class="card__body">Walk-ins by appointment. Coffee from Parlour, two blocks down. Bring the call recordings if you have any.</p>
+        <span class="card__tag">703 Corydon Ave, Wpg</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ MAP ============ -->
+  <section class="section">
+    <div class="section-head reveal">
+      <div class="section-head__num">§ 03</div>
+      <h2 class="section-head__title">Find <em>the studio</em>.</h2>
+      <div class="section-head__meta">Corydon Village, Winnipeg</div>
+    </div>
+
+    <div class="map-block reveal">
+      <div class="map-block__info">
+        <div>
+          <h3>703 Corydon Ave.</h3>
+          <p>Winnipeg, Manitoba — R3M 0W7</p>
+        </div>
+        <ul class="map-block__list">
+          <li>Mon — Fri · 9am to 6pm CT</li>
+          <li>Sat · By appointment</li>
+          <li>On-call after-hours for active clients</li>
+          <li>Wheelchair accessible · Bilingual EN/FR</li>
+        </ul>
+      </div>
+      <div class="map-block__visual">
+        <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <pattern id="grid2" width="20" height="20" patternUnits="userSpaceOnUse">
+              <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(14,17,22,0.08)" stroke-width="0.5"/>
+            </pattern>
+          </defs>
+          <rect width="400" height="320" fill="#e8e0d2"/>
+          <rect width="400" height="320" fill="url(#grid2)"/>
+          <path d="M 0 180 Q 100 150 180 170 T 400 200" fill="none" stroke="#0e1116" stroke-width="2" stroke-opacity="0.4"/>
+          <path d="M 200 0 Q 220 80 200 160 T 220 320" fill="none" stroke="#0e1116" stroke-width="2" stroke-opacity="0.4"/>
+          <line x1="0" y1="100" x2="400" y2="100" stroke="#0e1116" stroke-opacity="0.2" stroke-width="0.7"/>
+          <line x1="0" y1="240" x2="400" y2="240" stroke="#0e1116" stroke-opacity="0.2" stroke-width="0.7"/>
+          <line x1="120" y1="0" x2="120" y2="320" stroke="#0e1116" stroke-opacity="0.2" stroke-width="0.7"/>
+          <line x1="320" y1="0" x2="320" y2="320" stroke="#0e1116" stroke-opacity="0.2" stroke-width="0.7"/>
+          <circle cx="155" cy="220" r="22" fill="#ff5a36" opacity="0.2">
+            <animate attributeName="r" from="18" to="32" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" from="0.4" to="0" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="155" cy="220" r="6" fill="#ff5a36"/>
+          <text x="170" y="225" font-family="JetBrains Mono, monospace" font-size="10" fill="#0e1116" letter-spacing="1">FUSE STUDIO</text>
+          <text x="20" y="40" font-family="Fraunces, serif" font-size="22" font-style="italic" fill="#0e1116">Corydon Village</text>
+          <text x="20" y="305" font-family="JetBrains Mono, monospace" font-size="9" fill="#0e1116" opacity="0.5" letter-spacing="1">49.86°N — 97.16°W</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__big reveal">Let's <em>put a voice</em> on it.</div>
+    <div class="footer__grid">
+      <div class="footer__col">
+        <h4>Fuse</h4>
+        <p class="footer__brand-text">Voice AI agents for the businesses keeping Main Street alive — and the ones quietly taking over.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="how-it-works.html">Process</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="contact.html">Book a call</a></li>
+          <li><a href="mailto:hello@fuse.ai">hello@fuse.ai</a></li>
+          <li><a href="tel:+12045550100">+1 (204) 555-0100</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Studio</h4>
+        <ul>
+          <li>Winnipeg, MB</li>
+          <li>Treaty 1 Territory</li>
+          <li>Métis Homeland</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Fuse Voice AI Inc.</span>
+      <span>Made in Winnipeg ✺ Deployed everywhere</span>
+    </div>
+  </footer>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/js/sphere.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
